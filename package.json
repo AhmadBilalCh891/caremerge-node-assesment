@@ -1,0 +1,25 @@
+{
+  "name": "caremerge-node-assesment",
+  "version": "1.0.0",
+  "description": "Caremerge basic node understanding assesment",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmadBilalCh891/caremerge-node-assesment.git"
+  },
+  "author": "Ahmad Bilal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmadBilalCh891/caremerge-node-assesment/issues"
+  },
+  "homepage": "https://github.com/AhmadBilalCh891/caremerge-node-assesment#readme",
+  "dependencies": {
+    "nodemon": "^2.0.18",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}
