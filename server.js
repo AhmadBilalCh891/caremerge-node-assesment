@@ -10,7 +10,7 @@ var corsOptions = {
 
 app.use(cors(corsOptions));
 
-// require("./app/routes/index")(app);
+require("./app/routes/index")(app);
 
 app.get('/', (req, res) => {
   res.send('Welcome to Tasks API!');
